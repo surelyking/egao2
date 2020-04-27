@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pz</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #eee;
+      }
+
+      @keyframes x {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      img {
+        border-radius: 100px;
+        box-shadow: 1px -1px 13px 5px rgba(0, 0, 0, 0.8);
+        -webkit-box-shadow: 1px -1px 13px 5px rgba(0, 0, 0, 0.8);
+        -moz-box-shadow: 1px -1px 13px 5px rgba(0, 0, 0, 0.8);
+        animation: x 12s infinite linear;
+      }
+      .wrap {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .desc {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="pz">
+        <img width="200px" height="200px" src="./WechatIMG6.jpeg" />
+      </div>
+      <div class="desc">Pz可Pz, 非常Pz</div>
+    </div>
+  </body>
+</html>
